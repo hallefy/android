@@ -1,3 +1,3 @@
 # android-listview
 
-Simple example using listview to show items.
+Simple example using listview to show items..
