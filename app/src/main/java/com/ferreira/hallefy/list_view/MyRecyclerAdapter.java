@@ -40,7 +40,7 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<FeedListRowHolder> {
 
 
         final FeedItem feedItem = feedItemList.get(i);
-        //Setting text view title
+        //Setting text view
 
         feedListRowHolder.eventDate.setText("teste");
         feedListRowHolder.eventName.setText("teste");
@@ -50,8 +50,7 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<FeedListRowHolder> {
 
     @Override
     public int getItemCount() {
-        //executa quando desliza até ultima e primeira posição
-        //fazer função para atualizar itens aqui...
+      
         return feedItemList.size();
 
     }
