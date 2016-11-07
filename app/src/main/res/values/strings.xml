@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">list-view</string>
+
+
+    <string name ="titulo">Example of Title</string>string>
+    <string name="event_name">Example of event</string>
+    <string name="event_date">Example of date</string>
+
+
+
+    <string name="event_menuName">Event name:</string>
+    <string name="event_menuDate">Date:</string>
+
 </resources>
