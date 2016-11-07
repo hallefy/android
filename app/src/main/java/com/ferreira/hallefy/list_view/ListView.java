@@ -18,9 +18,6 @@ public class ListView extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private MyRecyclerAdapter adapter;
     private ProgressBar progressBar;
-    public String[] list;
-    private SharedPreferences mPreferences;
-    private String user_id = "";
 
 
     @Override
