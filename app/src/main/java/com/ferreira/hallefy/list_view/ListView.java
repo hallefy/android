@@ -29,9 +29,7 @@ public class ListView extends AppCompatActivity {
         setContentView(R.layout.activity_list_view);
 
 
-        //biblioteca para adcionar divisões entre os itens da lista
-
-        // Initialize recycler view
+     
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
