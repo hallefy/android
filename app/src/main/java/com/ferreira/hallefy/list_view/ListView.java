@@ -18,9 +18,6 @@ public class ListView extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private MyRecyclerAdapter adapter;
     private ProgressBar progressBar;
-    public String[] list;
-    private SharedPreferences mPreferences;
-    private String user_id = "";
 
 
     @Override
@@ -29,9 +26,7 @@ public class ListView extends AppCompatActivity {
         setContentView(R.layout.activity_list_view);
 
 
-        //biblioteca para adcionar divisões entre os itens da lista
-
-        // Initialize recycler view
+     
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 

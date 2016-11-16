@@ -30,27 +30,7 @@ public class FeedListRowHolder extends RecyclerView.ViewHolder {
         this.eventDate = (TextView) view.findViewById(R.id.EventDate);
 
 
-        //for(int i = 0 ;i < VetImagem.length;i++)
-        //new DownloadImageTask(iconeCard).execute(VetImagem[i]);
-
     }
 }
-    /*
-    public void recebeParametros(FeedItem feedItem,int i){
-
-        VetnomeEvento[i] = feedItem.getNomeEvento();
-        VetvalorEntrada[i] = feedItem.getValorEntrada();
-        VetvalorEntradaMeia[i] = feedItem.getValorEntradaMeia();
-        VetdataEvento[i] = feedItem.getDataEvento();
-        VetopenBar[i] = feedItem.getOpenBar();
-        VethorarioEvento[i] = feedItem.getHorarioEvento();
-        VetCidade[i] = feedItem.getCidadeEvento();
-        VetEstado[i] = feedItem.getEstadoEvento();
-        VetDescicao[i] = feedItem.getDescricaoEvento();
-        VetEndereco[i] = feedItem.getEnderecoEvento();
-        VetidEvento[i] = feedItem.getId_evento();
-        VetImagem[i] = feedItem.getImagem();
-
-        //new DownloadImageTask(iconeCard).execute(VetImagem[i]);
-    }*/
+   
 
